@@ -1,0 +1,51 @@
+**The Eagle Goes Online**
+*How a student newspaper's digital transformation became a launchpad for careers — and a lesson in what students can build when given the freedom to try*
+
+by Hans Cathcart
+
+*Adapted from a longer retrospective originally published in The Eagle's alumni newsletter.*
+
+The American University's student newspaper has a 100-year history full of ground-breaking moments. During the 1990s, one was the digitization of the production workflow and another the introduction of a second channel of publication — The Eagle's online presence on the Internet and the then budding World Wide Web. This SIS undergraduate was more than a witness to both.
+
+As The Eagle's first so-called "Webmaster," I remember our experiments fondly, although this is the first time I've attempted to recall our accomplishments. Retrospectives from those who built early student newspaper websites are surprisingly hard to find online — which made recording this small slice of history feel worth the effort for the AU community.
+
+As I entered The Eagle's offices in the fall of 1992, our office was equipped with Macintosh SEs that sat prominently on the old particleboard editors' desks. Many of the chairs were Washington Post hand-me-downs that you can still see when watching All The President's Men. The ergonomics were atrocious.
+
+By the start of 1994, in an era before smartphones, WiFi, and social media, several transformative technologies were about to radically change The Eagle, and our generation got a glimpse of how "online" might change journalism and our future careers.
+
+It's a cliché that the kid from Silicon Valley led these technology changes at The Eagle. I'd like to claim that I had some kind of grand plan, or that I had great foresight; but the honest truth is, I was a tech geek who liked to play with new toys and avoid academics, while being stereotypically unable to get a date to save his life. My Eagle Achievement Awards read: "For rollerblading his way into The Eagle's single largest computer purchase" and "Here's a new e-mail system, ethernet, production server, negative scanner, and electronic newspaper! Now go away."
+
+I should be clear, I didn't do any of this alone. And as with any great transformation, the foundations were already laid. The Eagle's writers, photographers, editors, and production staff (students from across AU's colleges) were publishing an award-winning weekly broadsheet on their own initiative. Sundays were busy. Our business office was generating hundreds of thousands of dollars in advertising revenue and, crucially, knew how to deploy it strategically. Their fiscal savvy funded a digital transformation that none of us fully anticipated. Through it all, the Editors in Chief and Managing Editors trusted me with the latitude to experiment — a kind of leadership that's easy to overlook until you don't have it.
+
+During the mid-90s, our photographers were getting the first taste of an industry revolution, even before the Web changed everything. The shift from the darkroom to digital was dramatic. It didn't quite finish before I left college, but I can imagine it was an enormous professional and emotional transition for people who'd learned a craft built around chemicals and light.
+
+Few know this, but connecting The Eagle to the Internet required crawling into the disgusting, and possibly asbestos-infested ceiling above our offices (now luckily renovated), to run a cable over the wall to the New Media Lab. I'm not sure I even told the University's IT department — call it shadow IT, 1995-style. I should mention that I was a work-study in the University's Networking department, and if a skinny undergraduate visited your dorm or office with a networking card in hand and connected you to the Internet between '92 and '94, that might have been me. I was clearly an insider threat.
+
+Once The Eagle was connected to the Internet, writers could interact with editors more efficiently, salespeople could extend their availability to advertisers, and everyone could do their schoolwork between tasks — all before any students had cell phones. The business office was innovating in parallel, building contract management systems, accepting credit cards, and connecting to the university's accounting system in real time — modernizing The Eagle's operations well beyond the editorial side.
+
+**The Eagle's Web — Our First Online Publication**
+
+Publishing The Eagle on the World Wide Web was my goal from the first time I saw the Web. In typical pre-dot-com Silicon Valley startup-fashion, a business model was not a consideration. It is no small irony that the print and classified advertising that would later diminish so badly because of the Web funded all of the technology infrastructure that made it possible -- perhaps an ominous warning to the content industry currently at war with AI.
+
+We took the newspaper articles from last week's broadsheet, converted the text and photos into HTML pages, and published The Eagle on our own webserver — the cloud infrastructure under the office laser printer. People, including parents and former students, actually started to visit the website from all over the world in early 1996. This was a time when most alumni communication was analog. We may also have published The Eagle's first color photographs and audio recording. That's 30 years ago!
+
+We did eventually build a team, the volunteers moderating some of my wilder ambitions, preparing content, and helping us continue publishing after I graduated. Many of these published editions are preserved on The Internet Archive's Wayback Machine (archive.org: search for "www.eagle.american.edu").
+
+What we built turned out to be ahead of its time — an automated publishing system that cross-referenced writers, subjects, and articles in ways that anticipated the features of modern news websites years before they existed. Artificial intelligence historians of the early web have since noted that what we built anticipated features that wouldn't become standard in news publishing for another decade. Personal "home pages" also inspired some staff to start early blogs and New Yorker-style comic photo essays — formats that would later define online media.
+
+As a 22-year-old, I wasn't particularly attentive to the reader's experience. I conducted no surveys, had no sense for how professors and the administration reacted, nor did I bother asking The Eagle staff for their opinions. Had I done that, I'm sure the final product would have been much better. As a result, I learned a lot of important product management lessons for my future career — most importantly that all great products are the result of the right conditions, the intentional work of inspired team members, and a little bit of luck. With all this effort, we brought the printed word to the realm of cyberspace, and dragged The Eagle online.
+
+**The Future of Journalism and Why Organizations like The Eagle are so Important**
+
+Thirty years ago, building a digital newspaper felt like we were inventing the future. Not at the direction of our professors, but because the technology available enabled students like us to transform one part of college journalism on our own initiative. Not at MIT or Stanford, but at The American University — where we had the autonomy and the resources to try. I did not expect my crazy experiment to ultimately lead to The Eagle being published mostly online, not to mention the total collapse of classifieds or print advertising, but that has been a larger industry trend involving market forces I could not have predicted.
+
+Incidentally, I see much of that same opportunity, as well as the inevitable downsides, in generative AI and modern coding agents, technology that is bound to change all of our lives. To those currently attending AU, or considering spending a few precious years in Northwest DC, I would suggest experimenting with this new alien technology, just as we did when the Web was born. I can't tell you where it's going, nor what career you'll have 30 years from now, but as the wife of a friend who graduated from the Washington College of Law told me, AI is like the fortune teller from the Wizard of Oz, going through our baskets to find clues, which is why it feels like it knows us so well. AI doesn't have the ability to build "real and imperfect relationships", which are things you can only do in the company of other humans.
+
+Over the years, I've seen many of my fellow Eagle alums build successful careers in a variety of professions beyond journalism. They've managed the IT infrastructures of law firms, become musicians, built technology startups, critiqued films, and founded successful public relations and financial services firms. Many of these self-motivated innovators, my friends, got their start by volunteering in a cramped college newspaper office. We wrote articles and editorials, we edited and proofread copy, we took photographs (and developed them in chemicals), we designed and produced layouts (and glued them with wax), but we also did things tangential to journalism, skills that served many of us well after graduation.
+
+I am immensely proud of what we accomplished, and deeply grateful for the years I spent at American and with my friends in that dusty newspaper office on the second floor of the Mary Graydon Center.
+
+---
+
+*Hans Cathcart (The Eagle '92-'96 / SIS '07) works as a Product Manager in the cybersecurity industry. The full version of this retrospective, with archived screenshots and links to The Eagle's Web, is available at https://hanscath.github.io/theEagle.*
+
