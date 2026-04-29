@@ -214,6 +214,21 @@
     color: var(--ink);
   }
 
+  blockquote.ai-quote {
+    border-left: 3px solid var(--accent);
+    padding: 4px 0 4px 24px;
+    margin: 0 0 1.3em 0;
+    color: var(--ink-soft);
+  }
+
+  blockquote.ai-quote p {
+    margin-bottom: 1em;
+  }
+
+  blockquote.ai-quote p:last-child {
+    margin-bottom: 0;
+  }
+
   /* Mobile: stack everything, no negative margins, no floats */
   @media (max-width: 768px) {
     article { padding: 40px 24px 60px; }
@@ -337,15 +352,21 @@
     <img src="images/image2.jpg" alt="Eagle's Web screenshot">
   </figure>
 
-  <p>To build the website, we had a choice: hand-code every edition's stories as HTML pages, or build an automated production workflow that would &ldquo;produce&rdquo; the online paper. I'll let you guess which path I chose. The final Frankenstein software monstrosity would run for up to 6 hours, open Microsoft Word documents, interface with WordPerfect and AppleScript, to edit and output possibly hundreds of HTML documents. After a day of manually preparing the relevant pre-script files, we would be able to hit &ldquo;start&rdquo; on the program. Articles included pictures, proper captions, attributions to writers and photographers, and each Eagle staff member would get their own HTML page listing their contributions to the weekly editions. (Personal "home pages" also inspired some staff to start <a href="https://web.archive.org/web/19970209131847/http://www.eagle.american.edu/users/phil/homepage.html">early blogs</a> and New Yorker-style comic <a href="https://web.archive.org/web/19970209151731/http://www.eagle.american.edu/users/phil/firestorm/">photo essays</a>.) The news site was indexable, entirely static, cacheable, without any backend database to maintain, and in today's news ecosystem could likely withstand some serious cyber attacks. <em>Oh, and I may have built AU's first online Alumni database.</em></p>
+  <p>To build the website, we had a choice: hand-code every edition's stories as HTML pages, or build an automated production workflow that would &ldquo;produce&rdquo; the online paper. I'll let you guess which path I chose.</p>
+
+  <p>The final Frankenstein software monstrosity would run for up to 6 hours, open Microsoft Word documents, interface with WordPerfect and AppleScript, to edit and output possibly hundreds of HTML documents. After a day of manually preparing the relevant pre-script files, we would be able to hit &ldquo;start&rdquo; on the program.</p>
+
+  <p>Articles included pictures, proper captions, attributions to writers and photographers, and each Eagle staff member would get their own HTML page listing their contributions to the weekly editions. (Personal "home pages" also inspired some staff to start <a href="https://web.archive.org/web/19970209131847/http://www.eagle.american.edu/users/phil/homepage.html">early blogs</a> and New Yorker-style comic <a href="https://web.archive.org/web/19970209151731/http://www.eagle.american.edu/users/phil/firestorm/">photo essays</a>.) The news site was indexable, entirely static, cacheable, without any backend database to maintain, and in today's news ecosystem could likely withstand some serious cyber attacks. <em>Oh, and I may have built AU's first online Alumni database.</em></p>
 
   <p>Earlier this year, out of morbid curiosity, I asked ChatGPT (as one does these days) what it knew about The Eagle's Web. At first it was clueless (don't worry, it'll be sentient real soon!); but after I gave it a few links and background information, it came to the following conclusion:</p>
 
+<blockquote class="ai-quote">
   <p>"The Eagle built a workflow that automated HTML generation, designed to be maintainable and scalable. This approach was ahead of most student newspaper websites in 1996, which often required hand-coded pages for each article. It also shows a philosophy of content-first editorial workflow, anticipating modern CMS pipelines.</p>
 
   <p>It shows early 'semantic web' principles: Cross-referencing authors, subjects, and articles mirrored features of modern CMSs and news sites. The site provided navigational flexibility, as readers could explore content in multiple directions — by story, by contributor, or by topic/person.</p>
 
   <p>The historical significance is that The Eagle's Web implemented an early form of hyperlinked relational journalism, all statically generated, which predates modern CMS features like automatic author pages, category/tag pages, and entity indexing — yet it was achieved purely with macros and static HTML. This makes it an extraordinary example of pre-database automation in web journalism."</p>
+</blockquote>
 
   <p>Boy do these synthetic text extruding machines know how to stroke one's ego.</p>
 
@@ -353,7 +374,9 @@
     <img src="images/image1.jpg" alt="Eagle's Web screenshot">
   </figure>
 
-  <p>Although I am extremely proud of what we produced, the scripts we wrote, and the content we published, the system I designed was too onerous to maintain in the long-run, and would have required far more staff to properly maintain. Ironically, at a time when students at other universities were manually assembling HTML pages and building &ldquo;online&rdquo; staff, my automation efforts worked counter to building excitement for our online presence. As a 22-year-old, I also wasn't particularly attentive to the reader's experience; I conducted no surveys, had no sense for how professors and the administration reacted, nor did I bother asking The Eagle staff for their opinions. Had I done that, I'm sure the final product would have been much better. As a result, I learned a lot of important product management lessons for my future career, most importantly that all great products are the result of the right conditions, the intentional work of inspired team members, and a little bit of luck. With all this effort, we brought the printed word to the realm of cyberspace, and dragged The Eagle online.</p>
+  <p>Although I am extremely proud of what we produced, the scripts we wrote, and the content we published, the system I designed was too onerous to maintain in the long-run, and would have required far more staff to properly maintain. Ironically, at a time when students at other universities were manually assembling HTML pages and building &ldquo;online&rdquo; staff, my automation efforts worked counter to building excitement for our online presence.</p>
+
+  <p>As a 22-year-old, I also wasn't particularly attentive to the reader's experience; I conducted no surveys, had no sense for how professors and the administration reacted, nor did I bother asking The Eagle staff for their opinions. Had I done that, I'm sure the final product would have been much better. As a result, I learned a lot of important product management lessons for my future career, most importantly that all great products are the result of the right conditions, the intentional work of inspired team members, and a little bit of luck. With all this effort, we brought the printed word to the realm of cyberspace, and dragged The Eagle online.</p>
 
   <h2 class="section">Epilogue - The Future of Journalism and Why Organizations like The Eagle are so Important</h2>
 
