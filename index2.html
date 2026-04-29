@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Eagle Goes Online — Hans Cathcart</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,800;0,9..144,900;1,9..144,400;1,9..144,600&family=JetBrains+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #f4ede0;
+    --paper-deep: #ebe1cd;
+    --ink: #1a1714;
+    --ink-soft: #3d342a;
+    --ink-faded: #6b5d4d;
+    --rule: #2a221b;
+    --accent: #a8341c;
+    --accent-deep: #7a2412;
+    --highlight: #e8d9b8;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--paper);
+    background-image:
+      radial-gradient(circle at 20% 10%, rgba(168, 52, 28, 0.04) 0%, transparent 40%),
+      radial-gradient(circle at 80% 70%, rgba(26, 23, 20, 0.05) 0%, transparent 50%),
+      url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.1 0 0 0 0 0.09 0 0 0 0 0.08 0 0 0 0.08 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    color: var(--ink);
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 18px;
+    line-height: 1.7;
+    min-height: 100vh;
+  }
+
+  article {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 60px 40px 80px;
+  }
+
+  h1.headline {
+    font-family: 'Fraunces', serif;
+    font-weight: 800;
+    font-size: clamp(2.2rem, 5vw, 3.4rem);
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    margin-bottom: 16px;
+    font-variation-settings: 'opsz' 144;
+  }
+
+  .deck {
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1.3rem;
+    line-height: 1.45;
+    color: var(--ink-soft);
+    margin-bottom: 28px;
+    padding-bottom: 28px;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .byline {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin-bottom: 8px;
+  }
+
+  .byline strong {
+    font-weight: 500;
+  }
+
+  .dateline {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    color: var(--ink-faded);
+    margin-bottom: 36px;
+  }
+
+  article p {
+    margin-bottom: 1.3em;
+  }
+
+  h2.section {
+    font-family: 'Fraunces', serif;
+    font-weight: 800;
+    font-size: 1.7rem;
+    line-height: 1.2;
+    letter-spacing: -0.015em;
+    margin: 40px 0 20px;
+    padding-top: 28px;
+    border-top: 1px solid var(--rule);
+    font-variation-settings: 'opsz' 144;
+  }
+
+  article a {
+    color: var(--accent-deep);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+  }
+
+  article a:hover {
+    background: var(--highlight);
+  }
+
+  /* Original photographs — float right or left, set width inline */
+  figure.photo {
+    margin: 8px 0 16px 0;
+    max-width: 100%;
+  }
+
+  figure.photo.right {
+    float: right;
+    margin-left: 24px;
+    margin-right: -40px;
+    clear: right;
+  }
+
+  figure.photo.left {
+    float: left;
+    margin-right: 24px;
+    margin-left: -40px;
+    clear: left;
+  }
+
+  figure.photo img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid rgba(26, 23, 20, 0.15);
+  }
+
+  figure.photo figcaption {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--ink-faded);
+    margin-top: 6px;
+    text-align: center;
+  }
+
+  /* Spot illustrations — centered, smaller, less prominent */
+  figure.spot {
+    margin: 28px auto;
+    text-align: center;
+    max-width: 240px;
+    opacity: 0.88;
+    clear: both;
+  }
+
+  figure.spot.wide {
+    max-width: 340px;
+  }
+
+  figure.spot img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  /* Clear floats so they don't bleed across sections */
+  h2.section, hr.divider {
+    clear: both;
+  }
+
+  hr.divider {
+    border: none;
+    text-align: center;
+    margin: 48px 0 32px;
+    height: 20px;
+    line-height: 20px;
+  }
+
+  hr.divider::before {
+    content: '◆ ◆ ◆';
+    color: var(--accent);
+    letter-spacing: 0.8em;
+    font-size: 0.7rem;
+  }
+
+  .acknowledgment, .bio {
+    font-size: 0.95rem;
+    line-height: 1.65;
+    color: var(--ink-soft);
+    clear: both;
+  }
+
+  .acknowledgment {
+    margin-bottom: 32px;
+  }
+
+  .bio {
+    font-style: italic;
+    border-top: 2px solid var(--rule);
+    padding-top: 24px;
+    margin-top: 32px;
+  }
+
+  .bio strong {
+    font-style: normal;
+    font-weight: 600;
+    color: var(--ink);
+  }
+
+  /* Mobile: stack everything, no negative margins, no floats */
+  @media (max-width: 768px) {
+    article { padding: 40px 24px 60px; }
+
+    figure.photo.right,
+    figure.photo.left {
+      float: none;
+      margin: 24px auto;
+      max-width: 100% !important;
+    }
+
+    figure.photo img {
+      max-width: 100%;
+    }
+  }
+</style>
+</head>
+<body>
+
+<article>
+
+  <h1 class="headline">The Eagle Goes Online</h1>
+
+  <p class="deck">The fascinating, yet unheralded history of The Eagle's digital transformation</p>
+
+  <p class="byline">by <strong>Hans Cathcart</strong></p>
+  <p class="dateline">April 24, 2026</p>
+
+  <p>The Eagle's 100-year history is full of ground-breaking moments. During the 1990s, one was the digitization of the production-workflow and another the introduction of a second channel of publication – The Eagle's online presence on the Internet and the then budding World Wide Web. I was more than a witness to both.</p>
+
+  <p>This story has gone mostly untold, although our first attempts on the Web are still recorded on The Internet Archive. As The Eagle's first so-called &ldquo;Webmaster&rdquo; I remember our experiments fondly, although this is the first time I've attempted to recall our accomplishments. Retrospectives from those who built early student newspaper websites are surprisingly hard to find online -- which made recording this small slice of history feel worth the effort.</p>
+
+  <figure class="photo right" style="width: 200px;">
+    <img src="images/image5.png" alt="Eagle office photograph">
+    <figcaption>Photo by: Matheus Kogi Fugita Abrahão</figcaption>
+  </figure>
+
+  <p>As I entered The Eagle's offices in the fall of 1992, our office was equipped with Macintosh SEs that sat prominently on the old particleboard editors' desks. Many of the chairs were Washington Post hand-me-downs that you can still see when watching All The President's Men. The ergonomics were atrocious.</p>
+
+  <p>My IT-management predecessor, a remarkable character in his own right, had equipped the office with an AppleTalk network, which used classic telephone cables to string together the SEs with a file server and higher-end desktop publishing machines. (For the geeks in the crowd: it had a maximum throughput of 230 kbit/s.) It was not fast—but it served the purpose of sending Microsoft Word documents to be imported into PageMaker, and transmitting low-resolution digital photographs and tabloid-sized page sections to the PostScript-capable printer, called &ldquo;The Beast.&rdquo;</p>
+
+  <figure class="spot">
+    <img src="images/eagle_illustration_1_mac_se.svg" alt="Line drawing of a Macintosh SE on a particleboard desk">
+  </figure>
+
+  <p>By the start of 1994, in an era before smartphones, WiFi, and social media, several transformative technologies were about to radically change The Eagle, and our generation got a glimpse of how &ldquo;online&rdquo; might change journalism and our future careers.</p>
+
+  <h2 class="section">Three Technologies Converging at Once</h2>
+
+  <p>The American University was already very well networked, with most dorms having direct Ethernet connectivity to the campus fiber-optic network and <strong>the Internet</strong>. This allowed some students to send emails to their parents, and friends at other colleges, directly from their dorm rooms. But we still had to sneak out of The Eagle's offices, walk down the hall, and use ancient mainframe terminals to use &ldquo;the Internet.&rdquo;</p>
+
+  <p>It may seem quaint in today's age of AI-generated images, but &ldquo;to photoshop&rdquo; had barely become a verb, at a time when our photographers were shooting on film, developing in the darkroom, and we were using a stat machine in the back closet to halftone images. We were already equipped with a scanner and Photoshop, and we were seeing the infancy of <strong>digital photography</strong>.</p>
+
+  <p>It seems obvious now, but at the time Tim Berners-Lee's invention, the <strong>World Wide Web</strong>, started appearing, there were competing visions of what the &ldquo;Information Super-Highway&rdquo; would look like. CompuServe, Prodigy, America Online, not to mention thousands of unique Bulletin Board Systems were all experimenting with how to publish content, and news, online. The Eagle's computers couldn't even reach outside the office, let alone the Internet.</p>
+
+  <figure class="photo left" style="width: 380px;">
+    <img src="images/image3.jpg" alt="Eagle office photograph">
+  </figure>
+
+  <p>Within two years, we would modernize The Eagle's network, connect to the Internet, digitize all our photography, publish The Eagle's first website, begin audio-streaming, build a bespoke digital website content management system (CMS) and news archive, and play hours and hours of Netrek and Marathon on The Eagle's new computers. It sounds like this transition was carefully planned—it was anything but.</p>
+
+  <p>It's a cliché that the kid from Silicon Valley led these technology changes at The Eagle. I'd like to claim that I had some kind of grand plan, that I had great foresight, or that there was great direction from The Eagle's leadership or advisors; but the honest truth is, I was a tech geek, who liked to play with new toys and avoid academics, while being stereotypically unable to get a date to save his life. My Eagle Achievement Awards read: "For rollerblading his way into The Eagle's single largest computer purchase" and "Here's a new e-mail system, ethernet, production server, negative scanner, and electronic newspaper! Now go away." (Those were the PG-rated ones.)</p>
+
+  <figure class="spot wide">
+    <img src="images/eagle_illustration_3_rollerblades.svg" alt="Line drawing of rollerblades resting on a copy of The Eagle">
+  </figure>
+
+  <p>I should be clear, I didn't do any of this alone. And as with any great transformation, the foundations were already laid. The Eagle's writers, photographers, editors, and production staff were publishing an award-winning weekly broadsheet. We had great content. Sundays were busy as hell. The paper was operating at a profit, the business office was selling print advertising and classifieds, generating hundreds of thousands of dollars in revenue, and running a tight financial ship to boot; this funded the necessary technology purchases. Through it all, the Editors in Chief and Managing Editors trusted me with the latitude to experiment — a kind of leadership that's easy to overlook until you don't have it.</p>
+
+  <figure class="photo right" style="width: 380px;">
+    <img src="images/image6.jpg" alt="Eagle office photograph">
+  </figure>
+
+  <p>It still amazes me what The Eagle's business leaders accomplished. The University's fiscal year ended with the school year, and any unspent revenue rolled back to the student federation — even money The Eagle had earned. With strong advertising sales in those years, the business office strategically deployed surplus revenue on technology upgrades before the funds disappeared. This wasn't just generosity — it was smart fiscal management that happened to fund a digital transformation.</p>
+
+  <p>During the mid-90s, our photographers were getting the first taste of an industry revolution, even before the Web changed everything. The shift from the darkroom to digital was dramatic. This shift didn't quite finish before I left college, but I can imagine it was an enormous professional and emotional transition for people who'd learned a craft built around chemicals and light.</p>
+
+  <p>It is remarkable how patient everyone was with me as I tore up The Eagle's ceiling tiles to run networking cables, and how we changed the production workflow with new tools. But, in college organizations, where staff churns frequently, you can do this type of transformation fairly easily.</p>
+
+  <figure class="photo left" style="width: 380px;">
+    <img src="images/image8.png" alt="Eagle office photograph">
+  </figure>
+
+  <p>Once we had The Eagle networked with Ethernet, not only did it help speed up the digital production workflow, but I could finally connect the office to the Internet. Few know this, but I had to crawl into the disgusting, and possibly asbestos-infested ceiling, to run the final cable over the wall to the New Media Lab in order to hook everything up. I'm not sure I even told the University's IT department -- call it shadow IT, 1995-style. Now, writers could interact with editors more efficiently, salespeople could extend their availability to advertisers, and everyone could do their schoolwork between tasks — all before any students had cell phones.</p>
+
+  <figure class="spot">
+    <img src="images/eagle_illustration_2_shadow_it.svg" alt="Line drawing of a figure on a step ladder with head pushed up through a ceiling tile">
+  </figure>
+
+  <p>This first step to link the office to the Internet was important not only for writers and editors to conduct online research, but it meant writers no longer had to rely on &ldquo;SneakerNet&rdquo; to bring their stories to the office on floppy disks. By introducing email, we also allowed readers to communicate with The Eagle electronically. As someone who had to retype letters to the editor, including cryptic &ldquo;unks&rdquo;, in my early years at the paper, I can tell you this change alone likely saved many of us from full-blown carpal tunnel syndrome.</p>
+
+  <p>Similarly, the business office was innovating on its own terms. They built a contract management system that automated advertising workflows, started accepting credit cards to reduce collection headaches, and connected to the university's accounting system to track budgets in real time — all of which modernized The Eagle's operations well beyond the editorial side.</p>
+
+  <h2 class="section">My Swan Song – The Eagle's Web – our First Online Publication</h2>
+
+  <figure class="photo right" style="width: 360px;">
+    <img src="images/image7.jpg" alt="Eagle's Web screenshot">
+  </figure>
+
+  <p>The Eagle has had two generations of online publications, The Eagle's Web and <a href="https://www.theeagleonline.com/">The Eagle Online</a>. I don't know much about the latter, but I can tell you about the former because it was my harebrained creation.</p>
+
+  <p>Publishing The Eagle on the World Wide Web was my goal from the first time I saw the Web. Granted, there was no guarantee the Web would ever take off or that we would get any readers to read the paper on a computer. In typical pre-dot-com Silicon Valley startup-fashion, a business model was not a consideration. It is no small irony that the print and classified advertising that would later diminish so badly because of the Web, funded all of the technology infrastructure to digitize The Eagle and enable us to build The Eagle's Web. (That might be an ominous warning to the content industry currently at war with AI and large language models.)</p>
+
+  <p>The brief story is: We took the newspaper articles from last week's broadsheet, converted the text and photos into HTML pages, and published The Eagle on our own webserver, the cloud infrastructure under the office laser printer. People, including parents and former students, actually started to visit the website from all over the world in early 1996. We may have published The Eagle's <a href="https://web.archive.org/web/19970209115140/http://www.eagle.american.edu/eagle/v70/i24/campus/byjove.sto">first color photographs</a> and audio recording. That's 30 years ago!</p>
+
+  <figure class="spot">
+    <img src="images/eagle_illustration_4_webserver.svg" alt="Line drawing of a laser printer on a desk with a Mac tower webserver tucked underneath">
+  </figure>
+
+  <p>The long story: The Eagle's content was in no way organized in a rational fashion to easily produce an online newspaper; I had no staff; was poor at recruiting volunteers; and had some unrealistic expectations about how the digital workflow and ultimate product should look. Oh, and I wanted to start streaming audio recordings of Kennedy Political Union events and turn The Eagle into a multi-media powerhouse, all the while trying to complete my School of International Service bachelor degree.</p>
+
+  <figure class="photo left" style="width: 240px;">
+    <img src="images/image4.gif" alt="Eagle's Web screenshot">
+  </figure>
+
+  <p>We did eventually build a team, the volunteers moderating some of my wilder ambitions, preparing content, and babysitting the long-running scripts as we continued publishing the online edition after I graduated. Many of these published editions are preserved on The Internet Archive's Wayback Machine (<a href="https://web.archive.org/web/19960915000000*/www.eagle.american.edu">archive.org</a>: search for "www.eagle.american.edu").</p>
+
+  <p>What we built was quite remarkable, and The Eagle can lay claim to some very early digital news innovations. To start, I had embraced Tim Berners-Lee's concept of hyperlinking, and I wanted each published story to have as many relevant hyperlinks as possible; this way a reader could read a story mentioning my favorite University president, Benjamin Ladner, and by clicking on his name be taken to an Eagle-created <a href="https://web.archive.org/web/19970209224542/http://www.eagle.american.edu/research/people/ladner.benjamin/ladner.benjamin.v70.html">Wikipedia-like description</a>, along with lists (and hyperlinks) of all the previous Eagle stories in which he was mentioned (an index that would by now be notoriously long). This was at a time when search engines were very poor, page load times were slow, and synthetic text AI was a pipe-dream.</p>
+
+  <figure class="photo right" style="width: 380px;">
+    <img src="images/image2.jpg" alt="Eagle's Web screenshot">
+  </figure>
+
+  <p>To build the website, we had a choice: hand-code every edition's stories as HTML pages, or build an automated production workflow that would &ldquo;produce&rdquo; the online paper. I'll let you guess which path I chose. The final Frankenstein software monstrosity would run for up to 6 hours, open Microsoft Word documents, interface with WordPerfect and AppleScript, to edit and output possibly hundreds of HTML documents. After a day of manually preparing the relevant pre-script files, we would be able to hit &ldquo;start&rdquo; on the program. Articles included pictures, proper captions, attributions to writers and photographers, and each Eagle staff member would get their own HTML page listing their contributions to the weekly editions. (Personal "home pages" also inspired some staff to start <a href="https://web.archive.org/web/19970209131847/http://www.eagle.american.edu/users/phil/homepage.html">early blogs</a> and New Yorker-style comic <a href="https://web.archive.org/web/19970209151731/http://www.eagle.american.edu/users/phil/firestorm/">photo essays</a>.) The news site was indexable, entirely static, cacheable, without any backend database to maintain, and in today's news ecosystem could likely withstand some serious cyber attacks. <em>Oh, and I may have built AU's first online Alumni database.</em></p>
+
+  <p>Earlier this year, out of morbid curiosity, I asked ChatGPT (as one does these days) what it knew about The Eagle's Web. At first it was clueless (don't worry, it'll be sentient real soon!); but after I gave it a few links and background information, it came to the following conclusion:</p>
+
+  <p>"The Eagle built a workflow that automated HTML generation, designed to be maintainable and scalable. This approach was ahead of most student newspaper websites in 1996, which often required hand-coded pages for each article. It also shows a philosophy of content-first editorial workflow, anticipating modern CMS pipelines.</p>
+
+  <p>It shows early 'semantic web' principles: Cross-referencing authors, subjects, and articles mirrored features of modern CMSs and news sites. The site provided navigational flexibility, as readers could explore content in multiple directions — by story, by contributor, or by topic/person.</p>
+
+  <p>The historical significance is that The Eagle's Web implemented an early form of hyperlinked relational journalism, all statically generated, which predates modern CMS features like automatic author pages, category/tag pages, and entity indexing — yet it was achieved purely with macros and static HTML. This makes it an extraordinary example of pre-database automation in web journalism."</p>
+
+  <p>Boy do these synthetic text extruding machines know how to stroke one's ego.</p>
+
+  <figure class="photo left" style="width: 380px;">
+    <img src="images/image1.jpg" alt="Eagle's Web screenshot">
+  </figure>
+
+  <p>Although I am extremely proud of what we produced, the scripts we wrote, and the content we published, the system I designed was too onerous to maintain in the long-run, and would have required far more staff to properly maintain. Ironically, at a time when students at other universities were manually assembling HTML pages and building &ldquo;online&rdquo; staff, my automation efforts worked counter to building excitement for our online presence. As a 22-year-old, I also wasn't particularly attentive to the reader's experience; I conducted no surveys, had no sense for how professors and the administration reacted, nor did I bother asking The Eagle staff for their opinions. Had I done that, I'm sure the final product would have been much better. As a result, I learned a lot of important product management lessons for my future career, most importantly that all great products are the result of the right conditions, the intentional work of inspired team members, and a little bit of luck. With all this effort, we brought the printed word to the realm of cyberspace, and dragged The Eagle online.</p>
+
+  <h2 class="section">Epilogue - The Future of Journalism and Why Organizations like The Eagle are so Important</h2>
+
+  <p>Thirty years ago, building a digital newspaper felt like we were inventing the future. Not at the direction of our professors, but because the technology available enabled students like us to transform one part of college journalism on our own initiative. Not at MIT or Stanford, but at The American University -- where we had the autonomy and the resources to try. I did not expect my crazy experiment to ultimately lead to The Eagle being published mostly online, not to mention the total collapse of classifieds or print advertising, but that has been a larger industry trend involving market forces I could not have predicted. Remarkably, I don't think we even discussed the possibility. Incidentally, I see much of that same opportunity, as well as the inevitable downsides, in generative AI and modern coding agents, technology that is bound to change some part of journalism forever.</p>
+
+  <p>Over the years, I've seen many of my fellow Eagle alums build successful careers in a variety of professions beyond journalism. They've managed the IT infrastructures of law firms, become musicians, built technology startups, critiqued films, and founded successful public relations and financial services firms. These self-motivated innovators, my friends, got their professional start by volunteering in a cramped college newspaper office. We wrote articles and editorials, we edited and proofread copy, we took photographs (and developed them in chemicals), we designed and produced layouts (and glued them with wax), but we also did things tangential to journalism, skills that served many of us well after graduation.</p>
+
+  <figure class="spot wide">
+    <img src="images/eagle_illustration_5_layout_table.svg" alt="Line drawing of a paste-up layout table with column strips, wax roller, and X-Acto knife">
+  </figure>
+
+  <p>I am immensely proud of what we accomplished, and deeply grateful for the time I spent at The Eagle. You'll notice I haven't named anyone in this piece — that's intentional, out of respect for everyone's privacy. But my perspective is only one slice of The Eagle's story during these years. As we celebrate 100 years, I'd love to <a href="mailto:hans.cathcart@gmail.com">stay in touch</a> and see other Eagle alums <a href="https://www.theeagleonline.com/section/100th-anniversary">contribute</a> their own accounts. I'm sure there are details I've forgotten, moments I missed entirely, and stories that deserve to be told by the people who lived them. Those years in that cramped office were some of the most fun I've ever had.</p>
+
+  <hr class="divider">
+
+  <div class="acknowledgment">
+    I'm also indebted to <strong>Jeremy Cohn</strong> (The Eagle '93-'96 / SPA '96), who provided essential context on the business operations that made The Eagle's digital transformation possible, to my Eagle IT predecessor <strong>Nanther Thangarajah</strong> (The Eagle '90–'94 / CAS '09), and to <strong>Courtney Rozen</strong> (The Eagle '14-'18 / SOC '18), whose editorial eye helped me polish my draft into the article you just read.
+  </div>
+
+  <p class="bio"><strong>Hans Cathcart</strong> (The Eagle '92-'96 / SIS '07) works as a Product Manager in the cybersecurity industry (and is on the <a href="https://www.linkedin.com/in/hanscathcart/">hunt</a> for his next great product adventure). He lives in Pleasanton, California with his two cats and still enjoys writing with and without AI's assistance.</p>
+
+</article>
+
+</body>
+</html>
