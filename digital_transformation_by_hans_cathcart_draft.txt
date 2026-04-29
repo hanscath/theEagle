@@ -11,7 +11,7 @@ As The Eagle's first so-called "Webmaster," I remember our experiments fondly, a
 
 As I entered The Eagle's offices in the fall of 1992, our office was equipped with Macintosh SEs that sat prominently on the old particleboard editors' desks. Many of the chairs were Washington Post hand-me-downs that you can still see when watching All The President's Men. The ergonomics were atrocious.
 
-Before The Eagle's digital transformation could happen, the office had to be rewired. My IT predecessor had equipped the office with an AppleTalk network — telephone cables strung between the Macs, printers, and a file server — which was serviceable but slow. With the newspaper's surplus advertising revenue, we purchased new computers and networking gear, ran Ethernet cable throughout the office, laying the physical groundwork.
+Before The Eagle's digital transformation could happen, the office had to be rewired. My IT predecessor had equipped the office with an AppleTalk network — telephone cables strung between the Macs, printers, and a file server — which was serviceable but slow. With the newspaper's surplus advertising revenue, we purchased new computers and networking gear, ran Ethernet cable throughout the office, laying the physical groundwork for everything that followed.
 
 By the start of 1994, in an era before smartphones, WiFi, and social media, several transformative technologies — the Internet, the World Wide Web, and digital photography — were converging at once, and our generation got a glimpse of how "online" might change journalism and our future careers.
 
