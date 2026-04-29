@@ -1,0 +1,269 @@
+<svg width="640" height="380" viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg">
+<style>
+  .ink { fill: none; stroke: #1a1714; stroke-width: 1.4; stroke-linecap: round; stroke-linejoin: round; }
+  .ink-thin { fill: none; stroke: #1a1714; stroke-width: 0.9; stroke-linecap: round; stroke-linejoin: round; }
+  .ink-thick { fill: none; stroke: #1a1714; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+  .fill-ink { fill: #1a1714; }
+</style>
+
+<!-- ============== NEWSPAPER FIRST (so rollerblades render on top) ============== -->
+<g transform="translate(80, 60) rotate(-2 100 130)">
+  <rect x="0" y="0" width="200" height="260" class="ink-thick" fill="#f4ede0"/>
+  
+  <line x1="10" y1="22" x2="190" y2="22" class="ink"/>
+  <text x="100" y="42" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#1a1714" text-anchor="middle" font-style="italic">The Eagle</text>
+  <line x1="10" y1="52" x2="190" y2="52" class="ink"/>
+  <line x1="10" y1="55" x2="190" y2="55" class="ink-thin"/>
+  
+  <text x="14" y="62" font-family="Georgia, serif" font-size="5" fill="#1a1714">VOL. LXX</text>
+  <text x="100" y="62" font-family="Georgia, serif" font-size="5" fill="#1a1714" text-anchor="middle">THE AMERICAN UNIVERSITY</text>
+  <text x="186" y="62" font-family="Georgia, serif" font-size="5" fill="#1a1714" text-anchor="end">1996</text>
+  
+  <text x="100" y="80" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#1a1714" text-anchor="middle">Eagle Goes Online</text>
+  
+  <line x1="30" y1="88" x2="170" y2="88" class="ink-thin"/>
+  <line x1="40" y1="92" x2="160" y2="92" class="ink-thin"/>
+  
+  <rect x="14" y="100" width="70" height="50" class="ink"/>
+  <line x1="14" y1="100" x2="84" y2="150" class="ink-thin"/>
+  <line x1="84" y1="100" x2="14" y2="150" class="ink-thin"/>
+  
+  <line x1="14" y1="155" x2="84" y2="155" class="ink-thin"/>
+  <line x1="14" y1="158" x2="78" y2="158" class="ink-thin"/>
+  
+  <g class="ink-thin">
+    <line x1="92" y1="100" x2="186" y2="100"/>
+    <line x1="92" y1="103" x2="186" y2="103"/>
+    <line x1="92" y1="106" x2="180" y2="106"/>
+    <line x1="92" y1="109" x2="186" y2="109"/>
+    <line x1="92" y1="112" x2="184" y2="112"/>
+    <line x1="92" y1="115" x2="186" y2="115"/>
+    <line x1="92" y1="118" x2="178" y2="118"/>
+    <line x1="92" y1="121" x2="186" y2="121"/>
+    <line x1="92" y1="124" x2="186" y2="124"/>
+    <line x1="92" y1="127" x2="182" y2="127"/>
+    <line x1="92" y1="130" x2="186" y2="130"/>
+    <line x1="92" y1="133" x2="186" y2="133"/>
+    <line x1="92" y1="136" x2="176" y2="136"/>
+    <line x1="92" y1="139" x2="186" y2="139"/>
+    <line x1="92" y1="142" x2="184" y2="142"/>
+    <line x1="92" y1="145" x2="186" y2="145"/>
+    <line x1="92" y1="148" x2="180" y2="148"/>
+  </g>
+  
+  <line x1="14" y1="170" x2="186" y2="170" class="ink"/>
+  
+  <g class="ink-thin">
+    <line x1="14" y1="178" x2="70" y2="178"/>
+    <line x1="14" y1="181" x2="70" y2="181"/>
+    <line x1="14" y1="184" x2="65" y2="184"/>
+    <line x1="14" y1="187" x2="70" y2="187"/>
+    <line x1="14" y1="190" x2="68" y2="190"/>
+    <line x1="14" y1="193" x2="70" y2="193"/>
+    <line x1="14" y1="196" x2="62" y2="196"/>
+    <line x1="14" y1="199" x2="70" y2="199"/>
+    <line x1="14" y1="202" x2="70" y2="202"/>
+    <line x1="14" y1="205" x2="66" y2="205"/>
+    <line x1="14" y1="208" x2="70" y2="208"/>
+    <line x1="14" y1="211" x2="68" y2="211"/>
+    <line x1="14" y1="214" x2="60" y2="214"/>
+    <line x1="14" y1="217" x2="70" y2="217"/>
+    <line x1="14" y1="220" x2="70" y2="220"/>
+    <line x1="14" y1="223" x2="65" y2="223"/>
+    <line x1="14" y1="226" x2="70" y2="226"/>
+    <line x1="14" y1="229" x2="68" y2="229"/>
+    <line x1="14" y1="232" x2="62" y2="232"/>
+    <line x1="14" y1="235" x2="70" y2="235"/>
+    <line x1="14" y1="238" x2="70" y2="238"/>
+    <line x1="14" y1="241" x2="66" y2="241"/>
+    <line x1="14" y1="244" x2="70" y2="244"/>
+    <line x1="14" y1="247" x2="58" y2="247"/>
+  </g>
+  
+  <g class="ink-thin">
+    <line x1="78" y1="178" x2="124" y2="178"/>
+    <line x1="78" y1="181" x2="124" y2="181"/>
+    <line x1="78" y1="184" x2="120" y2="184"/>
+    <line x1="78" y1="187" x2="124" y2="187"/>
+    <line x1="78" y1="190" x2="122" y2="190"/>
+    <line x1="78" y1="193" x2="124" y2="193"/>
+    <line x1="78" y1="196" x2="118" y2="196"/>
+    <line x1="78" y1="199" x2="124" y2="199"/>
+    <line x1="78" y1="202" x2="124" y2="202"/>
+    <line x1="78" y1="205" x2="120" y2="205"/>
+    <line x1="78" y1="208" x2="124" y2="208"/>
+    <line x1="78" y1="211" x2="122" y2="211"/>
+    <line x1="78" y1="214" x2="116" y2="214"/>
+    <line x1="78" y1="217" x2="124" y2="217"/>
+    <line x1="78" y1="220" x2="124" y2="220"/>
+    <line x1="78" y1="223" x2="120" y2="223"/>
+    <line x1="78" y1="226" x2="124" y2="226"/>
+    <line x1="78" y1="229" x2="122" y2="229"/>
+    <line x1="78" y1="232" x2="118" y2="232"/>
+    <line x1="78" y1="235" x2="124" y2="235"/>
+    <line x1="78" y1="238" x2="124" y2="238"/>
+    <line x1="78" y1="241" x2="120" y2="241"/>
+    <line x1="78" y1="244" x2="124" y2="244"/>
+    <line x1="78" y1="247" x2="115" y2="247"/>
+  </g>
+  
+  <g class="ink-thin">
+    <line x1="132" y1="178" x2="186" y2="178"/>
+    <line x1="132" y1="181" x2="186" y2="181"/>
+    <line x1="132" y1="184" x2="180" y2="184"/>
+    <line x1="132" y1="187" x2="186" y2="187"/>
+    <line x1="132" y1="190" x2="184" y2="190"/>
+    <line x1="132" y1="193" x2="186" y2="193"/>
+    <line x1="132" y1="196" x2="178" y2="196"/>
+    <line x1="132" y1="199" x2="186" y2="199"/>
+    <line x1="132" y1="202" x2="186" y2="202"/>
+    <line x1="132" y1="205" x2="182" y2="205"/>
+    <line x1="132" y1="208" x2="186" y2="208"/>
+    <line x1="132" y1="211" x2="184" y2="211"/>
+    <line x1="132" y1="214" x2="176" y2="214"/>
+    <line x1="132" y1="217" x2="186" y2="217"/>
+    <line x1="132" y1="220" x2="186" y2="220"/>
+    <line x1="132" y1="223" x2="180" y2="223"/>
+    <line x1="132" y1="226" x2="186" y2="226"/>
+    <line x1="132" y1="229" x2="184" y2="229"/>
+    <line x1="132" y1="232" x2="176" y2="232"/>
+    <line x1="132" y1="235" x2="186" y2="235"/>
+    <line x1="132" y1="238" x2="186" y2="238"/>
+    <line x1="132" y1="241" x2="180" y2="241"/>
+    <line x1="132" y1="244" x2="186" y2="244"/>
+    <line x1="132" y1="247" x2="182" y2="247"/>
+  </g>
+</g>
+
+<!-- ============== ROLLERBLADES — moved leftward to overlap the newspaper ============== -->
+
+<!-- ROLLERBLADE 1 — moved from x=320 to x=220, sitting on top of the newspaper's right side -->
+<g transform="translate(220, 60) rotate(-3)">
+  <circle cx="20" cy="180" r="14" class="ink-thick" fill="#f4ede0"/>
+  <circle cx="20" cy="180" r="5" class="ink"/>
+  <circle cx="20" cy="180" r="1.5" class="fill-ink"/>
+  <circle cx="58" cy="180" r="14" class="ink-thick" fill="#f4ede0"/>
+  <circle cx="58" cy="180" r="5" class="ink"/>
+  <circle cx="58" cy="180" r="1.5" class="fill-ink"/>
+  <circle cx="96" cy="180" r="14" class="ink-thick" fill="#f4ede0"/>
+  <circle cx="96" cy="180" r="5" class="ink"/>
+  <circle cx="96" cy="180" r="1.5" class="fill-ink"/>
+  <circle cx="134" cy="180" r="14" class="ink-thick" fill="#f4ede0"/>
+  <circle cx="134" cy="180" r="5" class="ink"/>
+  <circle cx="134" cy="180" r="1.5" class="fill-ink"/>
+  
+  <path d="M 8 168 L 148 168 L 148 175 L 8 175 Z" class="ink-thick" fill="#f4ede0"/>
+  <line x1="35" y1="172" x2="50" y2="172" class="ink-thin"/>
+  <line x1="73" y1="172" x2="88" y2="172" class="ink-thin"/>
+  <line x1="111" y1="172" x2="126" y2="172" class="ink-thin"/>
+  
+  <path d="M 145 175 L 162 175 L 165 200 L 150 200 Z" class="ink-thick" fill="#f4ede0"/>
+  
+  <path d="M 8 168 L 8 145 Q 8 135 18 130 L 30 110 Q 38 100 55 100 L 130 100 Q 145 100 148 115 L 148 168 Z" class="ink-thick" fill="#f4ede0"/>
+  
+  <path d="M 95 100 Q 88 60 105 50 L 145 50 Q 158 55 158 75 L 158 100" class="ink-thick" fill="#f4ede0"/>
+  
+  <ellipse cx="130" cy="55" rx="22" ry="6" class="ink"/>
+  <ellipse cx="130" cy="55" rx="18" ry="4" class="ink-thin" fill="#f4ede0"/>
+  
+  <line x1="100" y1="75" x2="155" y2="75" class="ink"/>
+  <rect x="125" y="71" width="14" height="9" class="ink"/>
+  <line x1="132" y1="71" x2="132" y2="80" class="ink-thin"/>
+  
+  <circle cx="95" cy="100" r="3" class="ink"/>
+  <circle cx="95" cy="100" r="1" class="fill-ink"/>
+  
+  <path d="M 50 100 L 50 130 L 95 130 L 95 100" class="ink-thin"/>
+  
+  <circle cx="55" cy="106" r="1.2" class="ink-thin"/>
+  <circle cx="55" cy="113" r="1.2" class="ink-thin"/>
+  <circle cx="55" cy="120" r="1.2" class="ink-thin"/>
+  <circle cx="55" cy="127" r="1.2" class="ink-thin"/>
+  <circle cx="90" cy="106" r="1.2" class="ink-thin"/>
+  <circle cx="90" cy="113" r="1.2" class="ink-thin"/>
+  <circle cx="90" cy="120" r="1.2" class="ink-thin"/>
+  <circle cx="90" cy="127" r="1.2" class="ink-thin"/>
+  
+  <line x1="55" y1="106" x2="90" y2="113" class="ink-thin"/>
+  <line x1="55" y1="113" x2="90" y2="106" class="ink-thin"/>
+  <line x1="55" y1="113" x2="90" y2="120" class="ink-thin"/>
+  <line x1="55" y1="120" x2="90" y2="113" class="ink-thin"/>
+  <line x1="55" y1="120" x2="90" y2="127" class="ink-thin"/>
+  <line x1="55" y1="127" x2="90" y2="120" class="ink-thin"/>
+  
+  <line x1="20" y1="148" x2="148" y2="148" class="ink"/>
+  <rect x="60" y="143" width="14" height="10" class="ink-thin"/>
+  
+  <rect x="105" y="138" width="22" height="12" class="ink-thin"/>
+  <text x="116" y="147" font-family="Helvetica, sans-serif" font-size="6" fill="#1a1714" text-anchor="middle" font-weight="bold">K2</text>
+  
+  <path d="M 8 168 Q 12 162 18 162 L 28 162" class="ink-thin"/>
+  
+  <path d="M 90 106 Q 95 95 102 92 Q 110 90 115 95" class="ink-thin"/>
+</g>
+
+<!-- ROLLERBLADE 2 — also shifted left, overlapping newspaper too -->
+<g transform="translate(370, 110) rotate(8)">
+  <circle cx="18" cy="160" r="13" class="ink-thick" fill="#f4ede0"/>
+  <circle cx="18" cy="160" r="4.5" class="ink"/>
+  <circle cx="18" cy="160" r="1.3" class="fill-ink"/>
+  <circle cx="52" cy="160" r="13" class="ink-thick" fill="#f4ede0"/>
+  <circle cx="52" cy="160" r="4.5" class="ink"/>
+  <circle cx="52" cy="160" r="1.3" class="fill-ink"/>
+  <circle cx="86" cy="160" r="13" class="ink-thick" fill="#f4ede0"/>
+  <circle cx="86" cy="160" r="4.5" class="ink"/>
+  <circle cx="86" cy="160" r="1.3" class="fill-ink"/>
+  <circle cx="120" cy="160" r="13" class="ink-thick" fill="#f4ede0"/>
+  <circle cx="120" cy="160" r="4.5" class="ink"/>
+  <circle cx="120" cy="160" r="1.3" class="fill-ink"/>
+  
+  <path d="M 7 149 L 133 149 L 133 156 L 7 156 Z" class="ink-thick" fill="#f4ede0"/>
+  <line x1="32" y1="153" x2="44" y2="153" class="ink-thin"/>
+  <line x1="65" y1="153" x2="77" y2="153" class="ink-thin"/>
+  <line x1="100" y1="153" x2="112" y2="153" class="ink-thin"/>
+  
+  <path d="M 130 156 L 145 156 L 148 178 L 134 178 Z" class="ink-thick" fill="#f4ede0"/>
+  
+  <path d="M 7 149 L 7 130 Q 7 122 16 117 L 28 100 Q 35 92 50 92 L 118 92 Q 132 92 134 105 L 134 149 Z" class="ink-thick" fill="#f4ede0"/>
+  
+  <path d="M 88 92 Q 82 56 97 47 L 132 47 Q 144 52 144 70 L 144 92" class="ink-thick" fill="#f4ede0"/>
+  
+  <ellipse cx="118" cy="52" rx="20" ry="5.5" class="ink"/>
+  <ellipse cx="118" cy="52" rx="16" ry="3.5" class="ink-thin" fill="#f4ede0"/>
+  
+  <line x1="92" y1="70" x2="142" y2="70" class="ink"/>
+  <rect x="115" y="66" width="13" height="8" class="ink"/>
+  
+  <circle cx="88" cy="92" r="2.5" class="ink"/>
+  <circle cx="88" cy="92" r="0.8" class="fill-ink"/>
+  
+  <path d="M 45 92 L 45 118 L 87 118 L 87 92" class="ink-thin"/>
+  
+  <circle cx="50" cy="98" r="1" class="ink-thin"/>
+  <circle cx="50" cy="105" r="1" class="ink-thin"/>
+  <circle cx="50" cy="112" r="1" class="ink-thin"/>
+  <circle cx="83" cy="98" r="1" class="ink-thin"/>
+  <circle cx="83" cy="105" r="1" class="ink-thin"/>
+  <circle cx="83" cy="112" r="1" class="ink-thin"/>
+  
+  <line x1="50" y1="98" x2="83" y2="105" class="ink-thin"/>
+  <line x1="50" y1="105" x2="83" y2="98" class="ink-thin"/>
+  <line x1="50" y1="105" x2="83" y2="112" class="ink-thin"/>
+  <line x1="50" y1="112" x2="83" y2="105" class="ink-thin"/>
+  
+  <line x1="18" y1="135" x2="134" y2="135" class="ink"/>
+  <rect x="55" y="130" width="13" height="9" class="ink-thin"/>
+  
+  <rect x="95" y="125" width="20" height="11" class="ink-thin"/>
+  <text x="105" y="133" font-family="Helvetica, sans-serif" font-size="6" fill="#1a1714" text-anchor="middle" font-weight="bold">K2</text>
+  
+  <path d="M 7 149 Q 11 143 17 143 L 26 143" class="ink-thin"/>
+  
+  <path d="M 50 98 Q 42 88 35 90 Q 28 92 25 100" class="ink-thin"/>
+  <path d="M 83 98 Q 90 90 96 92" class="ink-thin"/>
+</g>
+
+<!-- Floor shadows positioned under the new rollerblade locations -->
+<ellipse cx="296" cy="265" rx="80" ry="3" stroke="#1a1714" stroke-width="0.9" fill="none" opacity="0.3"/>
+<ellipse cx="438" cy="295" rx="72" ry="3" stroke="#1a1714" stroke-width="0.9" fill="none" opacity="0.3"/>
+</svg>
