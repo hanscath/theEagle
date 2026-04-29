@@ -11,6 +11,8 @@ As The Eagle's first so-called "Webmaster," I remember our experiments fondly, a
 
 As I entered The Eagle's offices in the fall of 1992, our office was equipped with Macintosh SEs that sat prominently on the old particleboard editors' desks. Many of the chairs were Washington Post hand-me-downs that you can still see when watching All The President's Men. The ergonomics were atrocious.
 
+Before The Eagle's digital transformation could happen, the office had to be rewired. My IT predecessor had equipped the office with an AppleTalk network — telephone cables strung between the Macintosh SEs, printers, and a file server — which was serviceable but slow. With the newspaper's surplus advertising revenue, we purchased new computers and networking gear, ran Ethernet cable through the office, and laid the physical groundwork.
+
 By the start of 1994, in an era before smartphones, WiFi, and social media, several transformative technologies — the Internet, the World Wide Web, and digital photography — were converging at once, and our generation got a glimpse of how "online" might change journalism and our future careers.
 
 It's a cliché that a German-born kid from Silicon Valley led these technology changes at The Eagle. I'd like to claim that I had some kind of grand plan, or that I had great foresight; but the honest truth is, I was a tech geek who liked to play with new toys and avoid academics, while being stereotypically unable to get a date to save his life. My Eagle Achievement Awards read: "For rollerblading his way into The Eagle's single largest computer purchase" and "Here's a new e-mail system, ethernet, production server, negative scanner, and electronic newspaper! Now go away."
@@ -49,7 +51,7 @@ I am immensely proud of what we accomplished, and deeply grateful for the years 
 
 ---
 
-Shout out to Nancy Mercer (VCU '92) of Inclusion Consultants — partner of my friend Bart Bukas (WCL '88) — for the spectacular AI metaphor, to Jeremy Cohn (The Eagle '93-'96 / SPA '96) who provided essential context on The Eagle's business operations, and to Courtney Rozen (The Eagle '14-'18 / SOC '18) whose editorial eye helped me polish my article.
+Shout out to Nancy Mercer (VCU '92) of Inclusion Consultants — partner of my friend Bart Bukas (WCL '88) — for the spectacular AI metaphor, to my Eagle IT predecessor Nanther Thangarajah (SIS '94 & Carlton Savage Award winner), to Jeremy Cohn (The Eagle '93-'96 / SPA '96) who provided essential context on The Eagle's business operations, and to Courtney Rozen (The Eagle '14-'18 / SOC '18) whose editorial eye helped me polish my article.
 
 ---
 
